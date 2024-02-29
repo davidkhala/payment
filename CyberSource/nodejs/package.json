@@ -1,0 +1,21 @@
+{
+  "name": "@davidkhala/cyber-source",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidkhala/payment.git"
+  },
+  "dependencies": {
+    "cybersource-rest-client": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
